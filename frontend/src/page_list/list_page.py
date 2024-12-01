@@ -51,7 +51,7 @@ def run_page():
 
     # キーワード検索
     search_query = st.text_input(
-        "🔍 システム名で検索",
+        "🔍 「システム名」または「概要」で検索",
         placeholder="検索キーワードを入力..."
     ).lower()
 
@@ -77,7 +77,7 @@ def run_page():
             col1, col2, col3 = st.columns([2, 1, 1])
 
             with col1:
-                st.markdown("**説明**")
+                st.markdown("**概要**")
                 st.write(arch["description"])
 
             with col2:

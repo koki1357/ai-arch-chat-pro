@@ -1,0 +1,13 @@
+# streamlit cloud deploy 用設定ファイル
+
+# backend
+flask
+openai
+pydantic_settings
+langchain
+langchain_openai
+load_dotenv
+
+# frontend
+streamlit
+python-dotenv

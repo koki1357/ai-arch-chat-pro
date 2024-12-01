@@ -1,0 +1,4 @@
+.env
+.fullstack-venv
+__pycache__
+embeddings_cache/

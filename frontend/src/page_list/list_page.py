@@ -73,7 +73,7 @@ def run_page():
         return
 
     for arch in filtered_architectures:
-        with st.expander(f"🏗️ {arch['system_name']}", expanded=False):
+        with st.expander(f"🏗️システム名：{arch['system_name']}", expanded=False):
             col1, col2, col3 = st.columns([2, 1, 1])
 
             with col1:

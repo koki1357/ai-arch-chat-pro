@@ -1,6 +1,0 @@
-flask
-openai
-pydantic_settings
-langchain
-langchain_openai
-load_dotenv
